@@ -8,7 +8,7 @@ int main()
    int var3 = '\t';
    int var4 = ' ';
     
-   if( isalnum(var1) )
+   if(isalnum(var1))
    {
       printf("%cis a lnum\n", var1);
    }
@@ -16,7 +16,7 @@ int main()
    {
       printf("%cis not a lnum\n", var1);
    }
-   if( isalnum(var2) )
+   if(isalnum(var2))
    {
       printf("%cis a lnum\n", var2);
    }
@@ -24,7 +24,7 @@ int main()
    {
       printf("%cis not a lnum\n", var2);
    }
-   if( isalnum(var3) )
+   if(isalnum(var3))
    {
       printf("%cis a lnum\n", var3);
    }
@@ -32,7 +32,7 @@ int main()
    {
       printf("%cis not a lnum\n", var3);
    }
-   if( isalnum(var4) )
+   if(isalnum(var4))
    {
       printf("%cis a lnum\n", var4);
    }

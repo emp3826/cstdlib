@@ -8,36 +8,8 @@ int main()
    int var3 = '\t';
    int var4 = ' ';
     
-   if(isalpha(var1))
-   {
-      printf("%cis an alpha\n", var1);
-   }
-   else
-   {
-      printf("%cis not an alpha\n", var1);
-   }
-   if(isalpha(var2))
-   {
-      printf("%cis an alpha\n", var2);
-   }
-   else
-   {
-      printf("%cis not an alpha\n", var2);
-   }
-   if(isalpha(var3))
-   {
-      printf("%cis an alpha\n", var3);
-   }
-   else
-   {
-      printf("%cis not an alpha\n", var3);
-   }
-   if(isalpha(var4))
-   {
-      printf("%cis an alpha\n", var4);
-   }
-   else
-   {
-      printf("%cis not an alpha\n", var4);
-   }
+   isalpha(var1) ? printf("%cis an alpha\n", var1) : printf("%cis not an alpha\n", var1);
+   isalpha(var2) ? printf("%cis an alpha\n", var2) : printf("%cis not an alpha\n", var2);
+   isalpha(var3) ? printf("%cis an alpha\n", var3) : printf("%cis not an alpha\n", var3);
+   isalpha(var4) ? printf("%cis an alpha\n", var4) : printf("%cis not an alpha\n", var4);
 }

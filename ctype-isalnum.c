@@ -8,36 +8,8 @@ int main()
    int var3 = '\t';
    int var4 = ' ';
     
-   if(isalnum(var1))
-   {
-      printf("%cis an alnum\n", var1);
-   }
-   else
-   {
-      printf("%cis not an alnum\n", var1);
-   }
-   if(isalnum(var2))
-   {
-      printf("%cis an alnum\n", var2);
-   }
-   else
-   {
-      printf("%cis not an alnum\n", var2);
-   }
-   if(isalnum(var3))
-   {
-      printf("%cis an alnum\n", var3);
-   }
-   else
-   {
-      printf("%cis not an alnum\n", var3);
-   }
-   if(isalnum(var4))
-   {
-      printf("%cis an alnum\n", var4);
-   }
-   else
-   {
-      printf("%cis not an alnum\n", var4);
-   }
+   isalnum(var1) ? printf("%cis an alnum\n", var1) : printf("%cis not an alnum\n", var1);
+   isalnum(var2) ? printf("%cis an alnum\n", var2) : printf("%cis not an alnum\n", var2);
+   isalnum(var3) ? printf("%cis an alnum\n", var3) : printf("%cis not an alnum\n", var3);
+   isalnum(var4) ? printf("%cis an alnum\n", var4) : printf("%cis not an alnum\n", var4);
 }

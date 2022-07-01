@@ -3,6 +3,7 @@ public class Main{
 		Person ming = new Person();
 		ming.setName("xiaoming");
 		ming.setAge(12);
+		ming.setBirth(2004);
 		System.out.println(ming.getName());
 		System.out.println(ming.getAge());
 	}
@@ -11,6 +12,7 @@ public class Main{
 class Person{
 	private String name;
 	private int age;
+	private int birth;
 
 	public void setName(String name){
 		this.name = name;
@@ -26,7 +28,16 @@ class Person{
 		}
 		this.age = age;
 	}
+
 	public int getAge(){
-		return this.age;
+		return calcAge(2022);
+	}
+
+	public void setBirth(int birth){
+		this.birth = birth;
+	}
+
+	private int calcAge(int current){
+		return current - this.birth;
 	}
 }

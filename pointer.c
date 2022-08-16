@@ -20,7 +20,7 @@ int main()
 	int c = 1;
 	increment1(a);
 	increment2(&b);
-	c = increment(c);
+	c = increment3(c);
 	printf("%d\n",a);
 	printf("%d\n",b);
 	printf("%d\n",c);

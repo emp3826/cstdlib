@@ -1,7 +1,7 @@
 #include <stdio.h>     
 #include <stdlib.h>     
 
-int values[] = { 40, 10, 100, 90, 20, 25 };
+int arr[] = { 40, 10, 100, 90, 20, 25 };
 
 int comp(const void* a, const void* b)
 {
@@ -11,8 +11,8 @@ int comp(const void* a, const void* b)
 int main()
 {
     int n;
-    qsort(values, sizeof(values) / sizeof(values[0]), sizeof(int), comp);
-    for (n = 0; n < sizeof(values) / sizeof(values[0]); n++)
-        printf("%d ", values[n]);
+    qsort(arr, sizeof(arr) / sizeof(arr[0]), sizeof(int), comp);
+    for (n = 0; n < sizeof(arr) / sizeof(arr[0]); n++)
+        printf("%d ", arr[n]);
     return 0;
 }
